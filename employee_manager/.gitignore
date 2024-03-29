@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# Directory for any IDE or text editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Production build files
+/dist
+
+# npm debug logs
+npm-debug.log*
+
+# Database files
+*.sql
+*.sqlite
