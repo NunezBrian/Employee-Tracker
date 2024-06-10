@@ -1,9 +1,11 @@
 {
   "name": "employee_manager",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A command-line application to manage a company's employee database using Node.js, Inquirer, and MySQL.",
+  "main": "cli.js",
   "scripts": {
+    "start": "node app.js",
+    "seed": "mysql -u root -p company_db < seeds.sql",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
